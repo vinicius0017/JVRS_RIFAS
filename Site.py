@@ -10,11 +10,11 @@ def pagina_inicial():
 
 @app.route('/usuario/<nome_usuario>')
 def usuario(nome_usuario):
-    return render_template('usuario.html' , nome_usuario=nome_usuario)
+    return render_template('index (2).html' , nome_usuario=nome_usuario)
 
 @app.route('/contatos')
 def contatos():
-    return render_template('contatos.html')
+    return render_template('index.html')
 
 
 if __name__ =="__main__":
